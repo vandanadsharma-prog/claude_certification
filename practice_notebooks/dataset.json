@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Is it true that humans only use 10% of their brains? Provide a comprehensive answer explaining the scientific consensus on this claim and what we actually know about human brain usage.",
+    "format": "A response containing: (1) a clear statement of whether the claim is true or false, (2) explanation of the actual neuroscience, (3) discussion of where this myth likely originated",
+    "solution_criteria": "A good solution correctly identifies the claim as false, explains that humans use virtually all parts of their brain and that most of the brain is active almost all the time, and references neuroscientific evidence such as brain imaging studies or expert consensus from neuroscience organizations."
+  },
+  {
+    "task": "A project started on March 15, 2024 and is scheduled to have three phases: Phase 1 lasts 45 days, Phase 2 lasts 60 days, and Phase 3 lasts 38 days. On what date will the project be completed, and which day of the week will that be?",
+    "format": "A response with: (1) the completion date in standard format (Month Day, Year), (2) the day of the week, (3) a breakdown showing the calculation for each phase",
+    "solution_criteria": "A good solution correctly calculates the total duration (143 days), accurately adds this to the start date accounting for the number of days in each month and leap year considerations, and correctly identifies the final date and corresponding day of the week."
+  },
+  {
+    "task": "The inventor of the World Wide Web created it while working at a research institution in a European country. That country is also famous for its chocolate and banking industries. What is the name of the research institution where the web was invented, and in what year did this invention occur?",
+    "format": "A response identifying: (1) the name of the research institution, (2) the year of invention, (3) the country where it is located",
+    "solution_criteria": "A good solution correctly identifies CERN (European Organization for Nuclear Research) as the institution, 1989 as the year, and Switzerland as the country, demonstrating the ability to connect multiple pieces of information (the inventor Tim Berners-Lee, the location clues about chocolate and banking, and historical facts about the web's creation)."
+  }
+]

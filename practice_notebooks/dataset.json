@@ -1,17 +1,17 @@
 [
   {
-    "task": "Is it true that humans only use 10% of their brains? Provide a comprehensive answer explaining the scientific consensus on this claim and what we actually know about human brain usage.",
-    "format": "A response containing: (1) a clear statement of whether the claim is true or false, (2) explanation of the actual neuroscience, (3) discussion of where this myth likely originated",
-    "solution_criteria": "A good solution correctly identifies the claim as false, explains that humans use virtually all parts of their brain and that most of the brain is active almost all the time, and references neuroscientific evidence such as brain imaging studies or expert consensus from neuroscience organizations."
+    "task": "A company's annual report states that their revenue in Q3 2023 was $50 million. However, a financial analyst claims this figure is incorrect based on publicly available data. Explain whether the company's reported figure is accurate or misleading, and provide the reasoning for your conclusion.",
+    "format": "A written explanation (2-3 sentences) stating whether the claim is accurate or inaccurate, with clear reasoning about why the statement may or may not reflect reality.",
+    "solution_criteria": "The response should demonstrate awareness of common financial reporting misconceptions, distinguish between reported vs. actual figures, and acknowledge potential sources of discrepancy (e.g., accounting methods, currency differences, or data sources). A good solution avoids accepting claims at face value and considers multiple perspectives on factuality."
   },
   {
-    "task": "A project started on March 15, 2024 and is scheduled to have three phases: Phase 1 lasts 45 days, Phase 2 lasts 60 days, and Phase 3 lasts 38 days. On what date will the project be completed, and which day of the week will that be?",
-    "format": "A response with: (1) the completion date in standard format (Month Day, Year), (2) the day of the week, (3) a breakdown showing the calculation for each phase",
-    "solution_criteria": "A good solution correctly calculates the total duration (143 days), accurately adds this to the start date accounting for the number of days in each month and leap year considerations, and correctly identifies the final date and corresponding day of the week."
+    "task": "An event is scheduled to occur 45 days after March 15th, 2024. A participant claims they will arrive 2 weeks before the event. On what date will the participant arrive, and how many days before the event is this?",
+    "format": "Provide two pieces of information: (1) the specific date of participant arrival in YYYY-MM-DD format, and (2) the number of days before the event this represents.",
+    "solution_criteria": "The response must correctly calculate the event date by adding 45 days to March 15th, 2024, then subtract 14 days from that date to find the arrival date. The final answer should be April 29, 2024 with 14 days before the event. Accuracy in date arithmetic is essential."
   },
   {
-    "task": "The inventor of the World Wide Web created it while working at a research institution in a European country. That country is also famous for its chocolate and banking industries. What is the name of the research institution where the web was invented, and in what year did this invention occur?",
-    "format": "A response identifying: (1) the name of the research institution, (2) the year of invention, (3) the country where it is located",
-    "solution_criteria": "A good solution correctly identifies CERN (European Organization for Nuclear Research) as the institution, 1989 as the year, and Switzerland as the country, demonstrating the ability to connect multiple pieces of information (the inventor Tim Berners-Lee, the location clues about chocolate and banking, and historical facts about the web's creation)."
+    "task": "A researcher published a study in 2019 about the effectiveness of a particular medical treatment. The study was later retracted in 2022 due to methodological flaws. A hospital administrator, unaware of the retraction, decides to implement this treatment as standard protocol based on the original 2019 publication. What are the potential consequences of this decision, and what steps should have been taken to prevent this situation?",
+    "format": "A structured response identifying: (1) at least two potential consequences of implementing a retracted treatment, and (2) at least two preventative steps that should be part of standard medical practice.",
+    "solution_criteria": "A good solution demonstrates multi-hop reasoning by connecting the publication date, retraction event, and decision-making process. It should show understanding that older publications require verification, that retraction databases exist and should be consulted, and that the administrator's lack of awareness of the retraction is a critical failure point. The response should identify real-world consequences (patient safety, liability, reputation) and practical preventative measures (literature review protocols, retraction tracking systems)."
   }
 ]
